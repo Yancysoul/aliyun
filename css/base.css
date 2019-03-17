@@ -1,0 +1,46 @@
+.fl {
+    float: left;
+}
+.fr {
+    float: right;
+}
+.clearfix:after {
+    content: "";
+    display: block;
+    height: 0;
+    visibility: hidden;
+    clear: both;
+}
+.clearfix {
+    zoom: 1;
+}
+ul, li {
+    list-style: none;
+}
+input {
+    outline: none;
+}
+.wr {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.main-title {
+    margin-bottom: 68px;
+}
+.main-title h1 {
+    cursor: default;
+    text-align: center;
+    font-size: 24px;
+    color: #373d41;
+}
+.main-title a {
+    display: block;
+    text-align: center;
+    margin-top: 12px;
+    font-size: 16px;
+    color: #5f6367;
+}
+.main-title a:hover {
+    color: #00c1de;
+}
